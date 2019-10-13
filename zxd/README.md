@@ -19,5 +19,5 @@ https://zhuanlan.zhihu.com/p/36699992
 设batch=30, 这30个句子里最长的句子有31个单词，用collate_fn函数把其他不够31个单词的句子后面都补0，最后得到src_seq[30,31]和src_pos[30,31]
 
 <p align="center">
-<img src="http://imgur.com/1krF2R6.png" width="250">
+<img src="transformer.pdf" width="250">
 </p>
