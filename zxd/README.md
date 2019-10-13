@@ -16,7 +16,7 @@ https://zhuanlan.zhihu.com/p/36699992
 
 把src的句子拆解成单词, 每句加上's' '/s'前后标志词，再把单词转化为相应的idx
 
-设batch=30, 这30个句子里最长的句子有31个单词，用collate_fn函数把其他不够31个单词的句子后面都补0，最后得到src_seq[30,31]和src_pos[30,31]
+设batch=30, 这30个句子里最长的句子有31个单词，用collate_fn函数把其他不够31个单词的句子后面都补0，最后得到src_seq [30,31]和src_pos [30,31]
 ![](fig/transformer.jpg)
 
 <p align="center">
