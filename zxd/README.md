@@ -4,6 +4,16 @@ https://zhuanlan.zhihu.com/p/36699992
 ## 结构详解
 - 容易理解 https://zhuanlan.zhihu.com/p/48508221
 - 一些细节说的更具体 https://blog.csdn.net/han_xiaoyang/article/details/86560459
+## encoder-decoder attention
+假如input为 "我喜欢看电影“ ，output为 "I ...”
+
+当要翻译第二个词的时候，querry为 “I“的向量，它要查询下一个词是什么；
+
+key为"我喜欢看电影“的向量，也就是备选词；
+
+q*k表示每个备选词k与q的相似度；
+
+value为"我喜欢看电影“的向量。
 
 # 环境
 - ubuntu 18
